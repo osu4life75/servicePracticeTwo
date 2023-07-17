@@ -100,7 +100,7 @@ function getDataFromPokemonArray(){
     //one.innerText = data.results;
     var resultsArray = data.results
     console.log("resultsArray", resultsArray)
-    var firstIndexName = resultsArray[0].name
+    var firstIndexName = resultsArray[5].name
     console.log("firstIndexName",firstIndexName)
 
   })
